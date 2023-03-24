@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>나이 계산하기</title>
+        <style>
+            .box{
+                width: 400px;
+                height: 400px;
+                background-color:#ededed;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+        <script>
+            var sample=[1,3,5];
+            var value=prompt();
+            var check = false;
+            for(var i=0;i<3;i++){
+                if(value==sample[i])
+                check = true;
+                
+            }
+            var box= document.querySelector(".box");
+            if(check==true){
+                box.style.background="#ff0000"
+            }
+            else{
+                box.style.background="#0000ff"
+            }
+        </script>
+    </body>
+</html>
