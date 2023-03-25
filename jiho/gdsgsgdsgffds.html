@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>test</title>
+        <style>
+            #sum{
+                width:400px;
+                height:400px;
+                border: 2px solid black;
+                float:left;
+            }
+            #sum1{
+                width:400px;
+                height:400px;
+                border: 2px solid black;
+                float:left;
+            }
+            #sum2{
+                width:400px;
+                height:400px;
+                border: 2px solid black;
+                float:left;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="sum"></div>
+        <div id="sum1"></div>
+        <div id="sum2"></div>
+        <script>
+            var a= prompt("숫자를 입력해주세요");
+            var b=parseInt(a);
+            var sum= document.querySelector("#sum");
+            var sum1= document.querySelector("#sum1");
+            var sum2= document.querySelector("#sum2");
+            if(b==1){
+                sum.style.background="#ff0000";
+            }
+            else if(b==2){
+                sum1.style.background="#ff0000";
+            }
+            else if(b==3){
+                sum2.style.background="#ff0000";
+            }
+        </script>
+    </body>
+</html>
