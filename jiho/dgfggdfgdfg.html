@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>test</title>
+
+    </head>
+    <body>
+        <script>
+            function create_color(){
+                let a= prompt("1,2,3,4중 한 가지를 입력해주세요");
+                if(a==1){
+                    document.write("<div style='width:500px; height:500px; border: 1px solid black; background-color:red'></div>")
+                    return a;
+                }
+                else if(a==2){
+                    document.write("<div style='width:500px; height:500px; border: 1px solid black; background-color:yellow'></div>")
+                    return a; 
+                }
+                else if(a==3){
+                    document.write("<div style='width:500px; height:500px; border: 1px solid black; background-color:blue'></div>")
+                    return a;
+                }
+                else if(a==4){
+                    document.write("<div style='width:500px; height:500px; border: 1px solid black; background-color:green'></div>")
+                    return a;
+                }
+                
+            }
+            let b=create_color();
+            console.log(b);
+
+            
+        </script>
+    </body>
+</html>
