@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>test</title>
+    </head>
+    <body>
+        <button id="change">글자색 바꾸기</button>
+
+        <div id="divtag" style="width:500px;height:500px;border:1px solid#f00">
+            <p>사랑합니다. 여러분.</p>
+        </div>
+
+        <script>
+            var changeBttn=document.querySelector("#change");
+            changeBttn.onclick=changeColor;
+
+            function changeColor(){
+                divtag = document.querySelector("#divtag");
+                divtag.innerHTML="";
+                divtag.innerHTML="<div style='width:300px;height:300px;border:1px solid #0000ff'></div>";
+            }
+        </script>
+    </body>
+
+</html>
