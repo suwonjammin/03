@@ -1,0 +1,15 @@
+sample = [
+    { name: "John", age: 25 },
+    { name: "Emily", age: 30 },
+    { name: "Daniel", age: 20 },
+    { name: "Sophia", age: 28 }
+    ];
+    sample[{1}].name="Daniel";
+    sample[2].name="John";
+    sample[3].name="Sophia";
+    sample[4].name="Emily";
+    sample[1].age= 20;
+    sample[2].age= 25;
+    sample[3].age= 28;
+    sample[4].age= 30;
+    console.log(sample);
